@@ -83,30 +83,3 @@ function searchMe() {
         .catch(err => console.log(err));
 }
 
-// const meals = document.getElementById("meals");
-// const test = document.getElementById("test").last();
-// if((i+1)%3!=0){
-//     html+=`
-//             <div class="box ">
-//             <img src= alt="" srcset="" id="image">
-//             <div id="info">
-//             <h3 id="name">${meal.strMeal}</h3>
-//             <button id="link" value=${meal.strMeal} onclick="clicks(${meal.idMeal})">Get Recipie</button>
-//             </div>
-//             </div>`
-//     test.innerHTMl+=html;
-// }
-// else{
-//     html+=`
-//     <br>
-//     <div id="test">
-//     <div class="box ">
-//     <img src="${meal.strMealThumb}" alt="" srcset="" id="image">
-//             <div id="info">
-//             <h3 id="name">${meal.strMeal}</h3>
-//             <button id="link" value="${meal.idMeal}" onclick="clicks(${meal.idMeal})">Get Recipie</button>
-//             </div>
-//             </div>
-//     </div> `
-//     meals.innerHTML=html;
-// }
